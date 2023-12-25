@@ -139,7 +139,7 @@ if __name__ == '__main__':
 
     #Источник
     magnitude = 1.0
-    signal = GaussianDiff(1, 150, 50)
+    signal = GaussianDiff(1, 150, 8)
     
     source = Source(signal, 0.0, Sc, eps[sourcePos], mu[sourcePos])
 
